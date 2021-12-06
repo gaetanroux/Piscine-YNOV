@@ -1,0 +1,14 @@
+.bg-light {
+    background-color: #3498db !important;
+}
+
+a {
+    display:inline-block;
+  }
+
+#basdroite{
+    position: relative;
+    float: left;
+    left: 0;
+    bottom: 0;
+    }

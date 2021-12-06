@@ -1,0 +1,1 @@
+const concatStr = (n, a) => n.toString() + a.toString()

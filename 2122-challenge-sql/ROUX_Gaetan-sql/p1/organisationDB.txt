@@ -1,0 +1,53 @@
+Pour la base de données j'ai décidé de la séparer en 4 tables :
+
+- clients
+- chambres
+- reservation
+- restaurants
+
+Concernant la table 'clients' :
+
+# La table client va nous permettre d'avoir toutes les informations du client, nous pourrons les retrouver grace à son ID qui est unique.  
+
+On a créé 5 colonnes :
+
+- id_clients --> Il correspond à 1 client, il est unique, il sera utile dans d'autres tables.
+- nom --> Nom du client
+- prenom --> Prénom du client
+- email --> Email du client 
+- id_chambres --> Le numéro de chambre occupé par le client
+
+Concernant la table 'chambres' :
+
+# La table chmabres va nous permettre de connaitres les informations concernant les chambres reservé, les personnes qui les ont réservé, le nombres de personnes dans la chambre, ainsi que leurs prix.
+
+On a créé 4 colonnes :
+
+- id_chambres --> Correspond au numéro de chambre
+- id_clients --> Correspond au client qui occupe donc la chambre
+- nb_places --> Le nombre de personnes dans la chambres
+- prix --> Le prix dans le chambre / nuit 
+
+Concernant la table 'reservation' :
+
+# Dans la table réservation, on retrouve toutes les informations concernant le temps de séjour, la date de réservation, prix et autres.
+
+On a créé 5 colonnes :
+
+- id_clients -->  Correspond au client
+- id_chambres --> Correspond numéro de chambre occupé par le client
+- tp_sejours --> Durée du séjour en jour(s).
+- date_reservation --> Date a laquelle a été faite la réservation
+- prix --> Le prix du séjour
+
+Concernant la table 'restaurants' :
+
+# Dans la table restaurants, on retrouve toutes les informations concernant, la restauration, prix, ansi que la date du menu.
+
+On a créé 5 colonnes :
+
+- date_menu -->  Correspond à la date du menu 
+- entree --> Entrée
+- plat --> Plat
+- dessert --> Dessert
+- prix --> Le prix du menu 

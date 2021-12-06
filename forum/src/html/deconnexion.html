@@ -1,0 +1,54 @@
+{{ template "base" . }} {{ define "title"}}Déconnexion{{ end }} {{ define "body" }}
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+</head>
+
+<body>
+    <br><br><br><br><br><br>
+    <div class="px-4 py-5 my-5 text-center">
+        <h1 style="color:black; margin-top: -200px;margin-left: 100px;" class="display-5 fw-bold">Voulez vous vraiment vous déconnecter ?</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <form action="/deconnexion" method="POST">
+                    <li>
+                        <input id="r1" style="height: 15px; width: 60px;" type="radio" name="confirmation" value="Oui">
+                        <label  style="margin-top: 20px; margin-left: 10x; font-size: 20px;" for="r1">Oui</label>
+                    </li>
+                    <li>
+                        <input id="r2" style="height: 15px; width: 60px;" type="radio" name="confirmation" value="Non" checked>
+                        <label style="margin-top: 40px; margin-left: 0px; font-size: 20px;" for="r2">Non</label>
+                    </li>
+                    <button class="w-100 btn btn-lg btn-primary" style="margin-left: -20px; margin-top: 60px;" type="submit">Déconnexion</button>
+                    <!-- <p class="mt-5 mb-3 text-muted"> -->
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+{{ end }}

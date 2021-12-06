@@ -1,0 +1,104 @@
+{{ define "base"}}
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ template "title" . }}</title>
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+
+    <body>
+
+
+        <div class="disco">
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <div class="col-3 pt-1 text-left">
+                        {{ if .Connected }}
+
+
+                        <a class="link-secondary" style="margin-left: 20px;" href="/profile"><img src="/images/profil.png" alt="" width="40" height="40"></a>
+                        <a class="link-secondary" style="width: 40px; height: 40px;" href="/profile">Profil</a> {{ else }}
+                        <a class="link-third" style="margin-left: 20px;position: sticky;" href="/inscription"> <img src="/images/inscription.png" alt="" width="40" height="40"></a>
+                        <a class="link-secondary" style="width: 40px; height: 40px;position: sticky; " href="/inscription">S'inscrire</a> {{ end }}
+                    </div>
+                    <div class="col-3 text-center">
+                        <a class="blog-header-logo text-dark" href="/"><img src="/images/accueil.gif" alt="" width="200" height="47"></a>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end align-items-center">
+                        {{ if .Connected }}
+                        <a class="btn btn-primary" style="margin-right: 15px;" href="/createpost" role="button">New post</a>
+                        <a class="link-secondary" style="width: 100px; height: 20px; position: sticky;" href="/deconnexion">Déconnexion</a>
+                        <a class="link-secondary" style="margin-right: 20px; margin-left: 1px; position: sticky;" href="/deconnexion"><img src="/images/disconnect.png" alt="" width="35" height="35"></a>
+
+                        {{ else }}
+                        <a class="link-secondary" style="width: 95px; height: 20px; position: sticky;" href="/connexion">Connexion</a>
+                        <a class="link-secondary" style="margin-right: 20px; position: sticky;" href="/connexion"><img src="/images/connexion.png" alt="" width="35" height="40"></a>
+                        {{ end }}
+                    </div>
+                </div>
+            </header>
+
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                    <a class="p-2 link-secondary" href="/categories">Informatique</a>
+                    <a class="p-2 link-secondary" href="/categories">Développement</a>
+                    <a class="p-2 link-secondary" href="/categories">Nourriture</a>
+                    <a class="p-2 link-secondary" href="/categories">Sports</a>
+                    <a class="p-2 link-secondary" href="/categories">Jeux-Vidéos</a>
+                    <a class="p-2 link-secondary" href="/categories">Beauté</a>
+                    <a class="p-2 link-secondary" href="/categories">Voyages</a>
+                    <a class="p-2 link-secondary" href="/categories">Politique</a>
+                    <a class="p-2 link-secondary" href="/categories">Santé</a>
+                    <a class="p-2 link-secondary" href="/categories">Culture</a>
+                    <a class="p-2 link-secondary" href="/categories">Mode</a>
+                    <a class="p-2 link-secondary" href="/categories">Autres</a>
+                </nav>
+            </div>
+            {{ template "body" . }}
+        </div> 
+
+        <!--FOOTER (pied de page)-->
+        <footer class="container-fluid footer">
+            <div class="container">
+                <div class="row">
+                    <article class="col-md col-lg-4 col-xs-12 col-sm-12">
+                        <h5> Sites externes : </h5>
+                        <hr class="separator">
+                        <a href="https://ynov-bordeaux.com/" target="_BLANK"> YNOV </a>
+                        <a href="https://git.ytrack.learn.ynov.com/GROUX/FORUM" target="_BLANK"> Ytrack </a><br/>
+                    </article>
+                    <article class="col-md col-lg-4 col-xs-12 col-sm-12">
+                        <h5> Codé par : </h5>
+                        <hr class="separator">
+                        <a href="https://www.instagram.com/gaetan_roux/" target="_BLANK"> Gaëtan Roux </a>
+                        <a href="https://www.instagram.com/clementmanant/" target="_BLANK"> Clément Manant </a>
+                        <a href="https://www.instagram.com/yare_luzrod/" target="_BLANK"> Paul Vigneron </a><br/>
+                    </article>
+                    <article class="col-md col-lg-3 col-xs-12 col-sm-12">
+                        <h5> Autre : </h5>
+                        <hr class="separator">
+                        <a href="https://ytrack.learn.ynov.com/intra/bordeaux/div-bordeaux/forum" target="_BLANK"> Lien du projet </a><br/>
+                    </article>
+                </div>
+                <p>
+                    Ynov Bordeaux | 2020 - 2021 | Projet Forum
+                </p>
+            </div>
+        </footer>
+    
+
+
+    </body>
+
+</html>
+
+{{ end }}

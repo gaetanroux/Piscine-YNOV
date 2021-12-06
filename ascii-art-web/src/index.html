@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+        <!-- Donne un nom à la page web -->
+		<meta charset="utf-8">
+        <title>Ascii-art-web</title>
+    </head>
+    <h1> <!-- Titre principal --> Ascii-art-web :) </h1>
+	<body>
+        <form action="/ascii-art" method="POST"> <!-- Création d'un formulaire utilisant la méthose POST et envoyant les données à la page /ascii-art -->
+            <p> <!-- Création d'une zone de texte -->
+                <label for="text">Text input : </label><br />
+                <input type="textarea" name="text" id="text" value=""></textarea>
+            </p>
+            <div>
+                <p> Font : </p> <!-- Création d'un bouton de sélection unique -->
+                <input type="radio" id="standard" name="font" value="standard.txt" checked>
+                <label for="standard">standard</label><br>
+                <input type="radio" id="shadow" name="font" value="shadow.txt">
+                <label for="shadow">shadow</label><br>
+                <input type="radio" id="thinkertoy" name="font" value="thinkertoy.txt">
+                <label for="thinkertoy">thinkertoy</label><br><br>
+            </div> <!-- Création d'un bouton d'envoi de données -->
+            <button type="submit">Lancer l'ascii</button><br><br><br><br>
+        </form> <!-- Retour de la fonction PrintAscii -->
+        Résultat : <br><pre>{{ .Valeur }}</pre>
+	</body>
+</html>

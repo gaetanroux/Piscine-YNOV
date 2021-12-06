@@ -1,0 +1,38 @@
+{{ template "base" . }} {{ define "title"}}Inscription{{ end }} {{ define "body" }}
+<br />
+<ul>
+    <header>
+        <form action="/inscription" method="POST">
+            <div>
+                <label for="username">Pseudo : </label><br />
+                <input type="textarea" name="username" required></textarea>
+            </div>
+            <div>
+                <label for="firstname">Prénom : </label><br />
+                <input type="textarea" name="firstname" required></textarea>
+            </div>
+            <div>
+                <label for="lastname">Nom : </label><br />
+                <input type="textarea" name="lastname" required></textarea>
+            </div>
+            <div>
+                <label for="mail">E-mail :</label><br />
+                <input type="email" name="email" required>
+            </div>
+            <div>
+                <label for="pass">Mot de passe :</label><br />
+                <input type="password" name="pass" required>
+            </div>
+            <div>
+                <label for="confirmpass">Confirmation mot de passe :</label><br />
+                <input type="password" name="confirm_password" required>
+            </div>
+            <div class="button">
+                <button type="submit">S'inscrire</button>
+            </div>
+        </form>    
+    </header>
+
+</ul>
+<br />
+{{ end }}

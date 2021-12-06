@@ -1,0 +1,1 @@
+ALTER table artists ADD COLUMN year INTEGER;

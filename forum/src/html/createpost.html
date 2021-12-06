@@ -1,0 +1,91 @@
+{{ template "base" . }} {{ define "title"}}Nouveau Post{{ end }} {{ define "body" }}
+
+
+<body>
+
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+    <div class="wrapper wrapper--w900">
+    <div class="card card-6">
+    <div class="card-heading">
+    <h2 class="title"></h2>
+    </div>
+    <div class="card-body">
+    <form action="/createpost" method="POST">
+    <div class="form-row">
+    <div class="name">Titre de votre sujet :</div>
+    <div class="value">
+    <input class="input--style-6" type="textarea" name="title">
+    </div>
+    </div>
+    <div class="form-row">
+    <p>
+        <label for="Categories">Categories</label><br />
+        <select name="Categories" id="Categories">
+            <option value="Informatique">Informatique</option>
+            <option value="Développement">Développement</option>
+            <option value="Nourriture">Nourriture</option>
+            <option value="Sports">Sports</option>
+            <option value="Culture">Culture</option>
+            <option value="Jeux-Vidéos">Jeux-Vidéos</option>
+            <option value="Beauté">Beauté</option>
+            <option value="Voyages">Voyages</option>
+            <option value="Santé">Santé</option>
+            <option value="Politique">Politique</option>
+            <option value="Mode">Mode</option>
+            <option value="Autres">Autres</option>
+        </select>
+    </p>
+    <div class="value">
+    <div class="input-group">
+    
+    </div>
+    </div>
+    </div>
+    <div class="form-row">
+        
+    <div class="name">Message</div>
+    <div class="value">
+    <div class="input-group">
+    <textarea class="textarea--style-6" name="body" placeholder="Ecrivez ici"></textarea>
+    <input class="input--style-6" type="textarea" name="body">
+    </div>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="name">Ajouter un contenu</div>
+    <div class="value">
+    <div class="input-group js-input-file">
+    <input class="input-file" type="file" name="file_cv" id="file">
+    <label class="label--file" for="file"></label>
+    </div>
+    <div class="label--desc">Taille maximale du fichier : 50 Mo</div>
+    </div>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" style="margin-left: -10px; margin-top: 10px; width: 40pxx;" type="submit">Création</button>
+        <p class="mt-5 mb-3 text-muted">
+    </form>
+    </div>
+    
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="vendor/jquery/jquery.min.js"></script>
+    
+    <script src="js/global.js"></script>
+    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-23581568-13');
+    </script>
+    
+    
+    </body>
+{{ end }}

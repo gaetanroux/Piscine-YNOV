@@ -1,0 +1,1 @@
+ALTER table invoices RENAME COLUMN Total to TotalAmount;

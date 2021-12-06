@@ -1,0 +1,1 @@
+SELECT "EmployeeId" Identifiant, "LastName" Nom, "FirstName" Prenom FROM employees;
