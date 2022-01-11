@@ -1,0 +1,16 @@
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.exe
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.deps.json
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.runtimeconfig.json
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.runtimeconfig.dev.json
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.dll
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\ref\CSharpDiscovery.dll
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\bin\Debug\net5.0\CSharpDiscovery.pdb
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.csproj.AssemblyReference.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.AssemblyInfoInputs.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.AssemblyInfo.cs
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.csproj.CoreCompileInputs.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.dll
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\ref\CSharpDiscovery.dll
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.pdb
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\obj\Debug\net5.0\CSharpDiscovery.genruntimeconfig.cache

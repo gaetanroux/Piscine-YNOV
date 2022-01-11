@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gaeta\\OneDrive\\Bureau\\2122-challenge-csharp\\CSharpDiscovery.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gaeta\\OneDrive\\Bureau\\2122-challenge-csharp\\CSharpDiscovery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gaeta\\OneDrive\\Bureau\\2122-challenge-csharp\\CSharpDiscovery.csproj",
+        "projectName": "CSharpDiscovery",
+        "projectPath": "C:\\Users\\gaeta\\OneDrive\\Bureau\\2122-challenge-csharp\\CSharpDiscovery.csproj",
+        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gaeta\\OneDrive\\Bureau\\2122-challenge-csharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

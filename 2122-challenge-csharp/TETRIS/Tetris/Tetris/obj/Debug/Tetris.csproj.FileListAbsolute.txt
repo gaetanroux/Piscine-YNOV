@@ -1,0 +1,11 @@
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.csproj.AssemblyReference.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.csproj.SuggestedBindingRedirects.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.Form1.resources
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\gaeta\OneDrive\Bureau\2122-challenge-csharp\TETRIS\Tetris\Tetris\obj\Debug\Tetris.pdb
